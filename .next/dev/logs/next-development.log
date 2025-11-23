@@ -1,0 +1,442 @@
+[00:00:02.992] Server  LOG      ✓ Ready in 2s
+[00:00:07.926] Server  LOG      ○ Compiling / ...
+[00:00:09.390] Server  ERROR    ⨯ ./components/ui/vortex.tsx:2:17
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                 ^^^^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+
+
+
+./components/ui/vortex.tsx:2:28
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                            ^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+
+
+[00:00:11.477] Server  ERROR    ⨯ ./components/ui/vortex.tsx:2:17
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                 ^^^^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+
+
+
+./components/ui/vortex.tsx:2:28
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                            ^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+
+
+[00:00:11.851] Browser ERROR   uncaughtError: Error: ./components/ui/vortex.tsx:2:17
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                 ^^^^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+
+
+[00:00:12.107] Browser ERROR   ./components/ui/vortex.tsx:2:17
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                 ^^^^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+[00:00:12.108] Browser ERROR   ./components/ui/vortex.tsx:2:28
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                            ^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+[00:00:12.108] Browser ERROR   ./components/ui/vortex.tsx:2:17
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                 ^^^^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+[00:00:12.108] Browser ERROR   ./components/ui/vortex.tsx:2:28
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                            ^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+[00:00:12.459] Browser ERROR   ./components/ui/vortex.tsx:2:17
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                 ^^^^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+[00:00:12.460] Browser ERROR   ./components/ui/vortex.tsx:2:28
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                            ^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+[00:00:13.794] Browser ERROR   ./components/ui/vortex.tsx:2:17
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                 ^^^^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+[00:00:13.794] Browser ERROR   ./components/ui/vortex.tsx:2:28
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                            ^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+[00:00:41.614] Server  LOG      ✓ Compiled in 514ms
+[00:00:42.320] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.348] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.355] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.360] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.363] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.365] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.368] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.370] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.373] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:00:42.388] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.390] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.391] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.391] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.392] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.393] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.394] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.394] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:42.395] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:00:42.686] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[00:00:53.287] Browser ERROR   ./components/ui/vortex.tsx:2:17
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                 ^^^^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+[00:00:53.287] Browser ERROR   ./components/ui/vortex.tsx:2:28
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                            ^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+[00:00:57.502] Server  LOG      ✓ Compiled in 119ms
+[00:00:57.715] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.726] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.727] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.728] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.730] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.730] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.731] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.732] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.733] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:00:57.739] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.740] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.742] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.744] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.746] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.747] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.748] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.749] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:57.750] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:00:57.972] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[00:01:05.290] Browser ERROR   ./components/ui/vortex.tsx:2:17
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                 ^^^^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+[00:01:05.290] Browser ERROR   ./components/ui/vortex.tsx:2:28
+Ecmascript file had an error
+  1 | import { cn } from "@/lib/utils";
+> 2 | import React, { useEffect, useRef } from "react";
+    |                            ^^^^^^
+  3 | import { createNoise3D } from "simplex-noise";
+  4 | import { motion } from "motion/react";
+  5 |
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/ui/vortex.tsx
+    ./app/page.tsx
+[00:01:22.108] Server  LOG      ✓ Compiled in 103ms
+[00:01:22.157] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.158] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.159] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.160] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.161] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.162] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.163] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.164] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.165] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:01:22.171] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.172] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.173] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.174] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.174] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.175] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.176] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.178] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:22.179] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:01:22.419] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[00:02:17.978] Server  LOG      ✓ Compiled in 138ms
+[00:02:18.577] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.652] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.654] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.654] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.655] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.656] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.657] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.657] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.658] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:02:18.679] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.681] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.687] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.691] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.694] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.695] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.699] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.703] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:18.706] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:02:19.214] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[00:02:21.328] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.331] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.335] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.343] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.358] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.364] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.370] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.375] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.378] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:02:21.395] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.398] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.401] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.405] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.408] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.410] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.419] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.420] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:21.423] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:02:21.804] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[00:02:43.068] Server  LOG      ✓ Compiled in 32ms
+[00:02:43.182] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.191] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.192] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.193] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.194] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.198] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.199] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.199] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.200] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:02:43.204] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.206] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\.next\dev\server\chunks\ssr\node_modules_next_dist_2f87da1c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.207] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.208] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.209] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.209] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.210] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.211] Server  ERROR   D:\myenum-web-works\srijayasakthiedibileoils\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:43.213] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:02:43.432] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[00:03:11.723] Server  LOG      ✓ Compiled in 66ms
+[00:03:12.478] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:08.363] Server  LOG      ✓ Compiled in 61ms
+[00:04:35.891] Server  LOG      ✓ Compiled in 35ms
+[00:04:49.989] Server  LOG      ✓ Compiled in 45ms
+[00:06:38.423] Server  LOG      ✓ Compiled in 58ms
+[00:06:53.793] Server  LOG      ✓ Compiled in 70ms
+[00:07:30.315] Server  LOG      ✓ Compiled in 232ms
+[00:07:31.302] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:49.863] Server  LOG      ✓ Compiled in 279ms
